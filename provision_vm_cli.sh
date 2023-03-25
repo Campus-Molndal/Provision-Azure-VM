@@ -19,7 +19,7 @@ az group create --name $RESOURCE_GRP --location $LOCATION
 export SERVER_NAME='DevServer'
 export USR='azureuser'
 SERVER_SIZE='Standard_B1ls'
-OPEN_PORT=$2
+export OPEN_PORT=$2
 CLOUD_INIT_FILE=$1
 
 # Create SSH keys
